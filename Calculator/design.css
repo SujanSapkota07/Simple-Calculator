@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #24ccff, #08a315c7)
+    background: linear-gradient(to right, #aa2b2b, #2b51ebc7)
 }
 
 .calculator {
@@ -20,7 +20,7 @@ body {
 }
 
 .calculator>button:hover {
-    background-color: rgba(59, 238, 142, 0.9);
+    background-color: rgba(16, 135, 204, 0.9);
 }
 
 .span-two {
@@ -29,7 +29,7 @@ body {
 
 .output {
     grid-column: 1/-1;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, 0.75);
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -40,7 +40,7 @@ body {
 
 .output .previous {
     font-size: 1.5rem;
-    color: rgb(255, 255, 255, .75);
+    color: rgba(151, 151, 151, 0.75);
 }
 
 .output .current {
